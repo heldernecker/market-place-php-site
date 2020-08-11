@@ -92,7 +92,6 @@ while ($info = mysqli_fetch_array($result)) {
     echo $listing_block;
     echo "<br>";
 }
-// echo "<div id=\"googleMap\" style=\"width:50%;height:300px;\"></div>"; Google Maps API needs more investigation
 ?>
 
 </div>
