@@ -95,18 +95,4 @@ while ($info = mysqli_fetch_array($result)) {
 // echo "<div id=\"googleMap\" style=\"width:50%;height:300px;\"></div>"; Google Maps API needs more investigation
 ?>
 
-</div>    
-
-<script>
-function myMap() {
-var mapProp= {
-  center:new google.maps.LatLng(49.883641,-119.489169),
-  zoom:15,
-};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-</script>   
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHltgZzfY_cYIjYfdIAdR61KJ6f8UXkvE&callback=myMap"></script>
-</body>
-
+</div>
